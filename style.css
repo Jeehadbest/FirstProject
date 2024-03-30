@@ -1,0 +1,101 @@
+body{
+background-image: url(image/Background-white.jpg);
+margin: auto;
+padding: 0;
+}
+
+
+
+.container{
+    color: blue;
+    font: ariel bold;
+    text-decoration: underline;
+    text-shadow: black 10px;
+    position: fixed;
+    background-color: rgb(206, 223, 237);
+    border: solid;
+    border-color: beige;
+    border-image: fill;
+    background-image: image(image/download.npg);
+    
+}
+.nav a{
+    padding: 75px 15px 15px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 20px;
+    text-shadow: black;
+    font-family: Arial, Helvetica, sans-serif 30px;
+    display: inline-block;
+    color: blue;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: red;
+}
+
+
+
+.nav{
+    text-align: right;
+}
+
+
+.container2{
+    border: solid;
+    border-color: transparent;
+    margin: 20px 20px;
+    padding: 10px 10px 10px;
+    border-radius: 20px;
+    background-color: blueviolet;
+
+}
+.contain{
+    padding: 20px 20px;
+    margin: 30%;
+    margin-top: 10px;
+    border: solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color: blue;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    position: relative;
+    color: blue;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+    position: relative;
+}
+
+p{
+    padding-bottom: 40px;
+}
+button{
+    width: 10px;
+    height: 20px;
+    position: relative;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border: solid;
+    margin: 10px;
+    color: brown;
+    text-align: inherit;
+    
+
+    border-radius: 5px;
+}
+button:hover{
+    color: red;
+}
+button:active{
+    color: blue;
+}
